@@ -1,0 +1,19 @@
+{
+  "name": "gabo98",
+  "version": "1.0.0",
+  "description": "micro servicio de usuarios",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./app.js localhost 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Marin",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
