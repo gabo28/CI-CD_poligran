@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "urbansys",
+  "private_key_id": "5710fb3b06fa79c0f2d2cb7e73e4ba1337c51851",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCgCcUh068gT++t\nzKY/vbKkLhv97SVquA8vfdSrIxWfTUmtovda9r2oWVqhrgyegr1kHZRSz+ayC6Hu\nkedNDMmyPiKadFFTgO65mUzNHMMRzg6bKDlW7oT3ZmR/ck7KR4zlbC1lM1fcXfmw\nlIAz4sYQ3Elm/2mNOBZmxPC0ZzBpbZg15tokVbVc7Lb2L0e5tvkHVRasizq/wqBZ\ndH6OSOtYYQ1HzCBa2Y1mhlcqX8nFJA9XIy6m8Xoy/zxi3MJFWJhJQUAjTPwKC2U2\nKt6FCep9BK9H9ktKkCiLovyM4fAwdm43Lvjk/ob1NCjmPDhET2BJaDAZiubjAqpV\nwujhsAGPAgMBAAECggEAEA0KzXq6rMX3pvnIjsoK2baaLhyTzSFKvJulMcjiCUkq\nI5Uds+zdVr4nfeHD+D3qmtjwoGGjpKXQBupxRWQL8qmStOUHpxVeXBUJA+VnlyiQ\nhHVDUvm3Mkz9tV6UkmscsYHpB6ZfoIV4XoJ2XT3YWaaOYhspzfUbIhGMhrt2uowP\nnIWBl196wT36WAKLlC3lIkH6mdrQ+KS+fhD16/WpO3BrKX78UbpCRpV+EHPeowS5\nKpDBDJOu+wBMGmo5fEeaH5GlHPyAzEr3bSSTTr1GsdgNwjp8zOTNd9B3wrRBxbDO\njs1e3jRvp2R4Tdk5r3BWGwVsoR98qJbd1Ih7Ik8YoQKBgQDdjhaF64OXXvXyoAss\noOq5kmNu0Xy4puIhgdbl9tMgayh6vbi4VD4X4pAJ80QKnwxdfKb7xkrOssz5js5N\npCLZyidKGh50ATkSLmC9iA6Yz5ktTkX4k4bIi1VfTzuZVOICusWoxtKQ7yaDEM0F\nbW79sMSq5HmsFX4qfQonzz3IcQKBgQC4604B2nLs2fyz+qiK2N305+lnhXkw/b3n\nsg2H4urIWiuAbqa2PjOMOlJs66Ga0L7FZMovocz45rHPIJ0pex28qMiwzVW4fiPG\nHXur8IjqCMLNy2juhyWi92MDRptgZt8Sbc8YSLqrSmadcprMddG4RCRBJSwcnaGJ\npUycWl9p/wKBgQChwkDtjBNqrFlzyKf/8IkP7jKM0YR3KNkHT83/3qMtEy/d1bEN\nW+xt8evqZ+Nwwcj8ZKtiPdeWbHM9badwhnsveeoPr1w2pEHv5U6acsD9juyuaGyr\n3cJVn204hhfkjlXpWkZAQNGyIfmDTfvyj4Cu1qXwg5nWK2cPTHXitOvN8QKBgQCJ\nBzUDApFvGgm8hN4oJZQ0SzYWVD3+I8l5y+Ni8q/wT4E05sn6+hTQsNcrh2B1jIIR\nXCLHMSrmtmzEg/JyLp1Wk+xDt6Tx1edEg8yFGPUcF+ni/fx/5P3qyU9BuiyhPxnG\nWkDASgSpsbRgr/At2pDR7wy+iYEqo1R031zp774MmQKBgQCAMoC1RI2+njFz4SvA\n/JRf4LT9sQarmgn3vDA9HeerfaXyEwvAmROge3ReFh0nLRWcS18a0xWTuPuc6umT\nr4r1hA1giqt0JaaiCNchH9Nb1ij04fVW6SiOix/eSuaICei83zjt0MJT1DS+umyX\n5SmlP006HVXN9j4vnd8Ugblcpg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "urbansys-back@urbansys.iam.gserviceaccount.com",
+  "client_id": "104898942124055455382",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/urbansys-back%40urbansys.iam.gserviceaccount.com"
+}

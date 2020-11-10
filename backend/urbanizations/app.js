@@ -1,14 +1,14 @@
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
-
 const router = require('./src/routes/index');
+
  
 const { json, urlencoded } = express;
 
 const app = express();
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 3000;
 
 app.use(json());
 app.use(urlencoded({extended:false}))
