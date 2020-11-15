@@ -1,16 +1,15 @@
-FROM node
+FROM node As builder
 
-RUN npm install -g http-server
+WORKDIR /usr/src/app
 
-WORKDIR /app
-
-COPY package*.json ./
+COPY package.json package-lock.json ./
 
 RUN npm install
 
 COPY . .
 
-RUN npm run build
+RUN npm run build --prod
 
-EXPOSE 8080
-CMD [ "http-server", "dist" ]
+FROM nginx as build_for_prod
+
+COPY --from=builder /usr/src/app/dist/SampleApp/ /usr/share/nginx/html
