@@ -12,4 +12,4 @@ RUN npm run build --prod
 
 FROM nginx as build_for_prod
 
-COPY --from=builder /usr/src/app/dist/SampleApp/ /usr/share/nginx/html
+COPY --from=builder /usr/src/app/dist/frontend/ /usr/share/nginx/html
