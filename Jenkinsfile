@@ -6,10 +6,10 @@ pipeline {
 				allOf {
 					branch 'qa'
 				}
-				steps {
-					echo {
-						'build qa'
-					}
+			}
+			steps {
+				echo {
+					'build'
 				}
 			}
 		}
