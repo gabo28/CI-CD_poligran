@@ -7,8 +7,8 @@ pipeline {
 					branch 'qa'
 				}
 				steps {
-					dir('frontend') {
-						sh 'echo "Building app angular in qa"'
+					echo {
+						'build qa'
 					}
 				}
 			}
