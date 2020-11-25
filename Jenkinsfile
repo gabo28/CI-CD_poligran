@@ -3,9 +3,7 @@ pipeline {
 	stages {
 		stage('Build: qa') {
 			when {
-				allOf {
-					branch 'qa'
-				}
+				branch 'qa'
 			}
 			steps {
 				dir('frontent'){
