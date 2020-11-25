@@ -6,7 +6,7 @@ pipeline {
 				branch 'qa'
 			}
 			steps {
-				dir('frontent'){
+				dir('frontend'){
 					sh 'echo "Building qa..."'
 				}
 			}
@@ -16,7 +16,7 @@ pipeline {
 				branch 'qa'
 			}
 			steps {
-				dir('frontent'){
+				dir('frontend'){
 					sh 'echo "Deploy qa..."'
 				}
 			}
@@ -26,7 +26,7 @@ pipeline {
 				branch 'main'
 			}
 			steps {
-				dir('frontent'){
+				dir('frontend'){
 					sh 'echo "Deploy prod..."'
 				}
 			}
