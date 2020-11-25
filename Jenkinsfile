@@ -8,7 +8,7 @@ pipeline {
 				}
 				steps {
 					dir('frontend') {
-						echo 'Building app angular in qa'
+						sh 'echo "Building app angular in qa"'
 					}
 				}
 			}
