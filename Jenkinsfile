@@ -8,7 +8,9 @@ pipeline {
 				}
 			}
 			steps {
-				echo 'build'
+				dir('frontent'){
+					sh 'echo "Building qa..."'
+				}
 			}
 		}
 	}
