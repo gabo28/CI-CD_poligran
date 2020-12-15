@@ -1,25 +1,27 @@
 pipeline {
-	agent any
+	agent {
+        docker { image 'node:14-alpine' }
+    }
 	stages {
 		stage('Build qa') {
 			when {
-				branch 'qa'
+				branch 'dev'
 			}
 			steps {
 				dir('frontend'){
-					sh 'echo "Building qa..."'
+						sh 'node --version'
 				}
 			}
 		}
-		stage('Deploy qa') {
+		stage('build pro') {
 			when {
-				branch 'qa'
+				branch 'main'
 			}
 			steps {
 				dir('frontend'){
-					sh 'echo "Deploy qa..."'
+					sh 'echo "build main..."'
 				}
-			}
+			} 
 		}
 		stage('Deploy prod') {
 			when {
